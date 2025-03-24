@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-block:8px;
+    gap: 24px;
+}
+.container{
+    /*
+    outra opção pro padding
+    padding-block: 20px;
+    padding-inline: 32px;
+    */
+    padding: 20px;
+    margin-inline: auto;
+    background-color: var(--surface-color);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--brand-color);
+}
