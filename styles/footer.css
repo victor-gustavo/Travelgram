@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 32px;
+}
+footer #infos{
+    display: flex;
+    gap: 16px;
+}
